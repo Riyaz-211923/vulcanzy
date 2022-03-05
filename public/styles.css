@@ -1,0 +1,300 @@
+body{
+    background-color: black;
+    /* background-image: url(Rectangle.png), url(AdobeStock_260720052.jpg); */
+    background-image: url(Desktop1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top, left bottom;
+}
+
+#navbar{
+    text-align: center;
+    margin: 0 0 20vh 0;
+}
+.navitem{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    margin: 0 2vw;
+    cursor: pointer;
+}
+.navitem:hover{
+    color: #FF7AC9;
+}
+.cont{
+    color: white;
+    text-align: center;
+}
+.cont1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 5px;
+}
+.cont2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 78px;
+    line-height: 97px;
+    margin: 0 0 17vh 0;
+}
+
+#timer{
+    color: white;
+    margin-bottom: 7vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2rem;
+    color: #FF7AC9;
+    font-weight: 800;
+font-size: 50px;
+line-height: 77px;
+margin: 0 !important;
+}
+
+.hurry-up {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Poppins;
+font-style: normal;
+}
+
+.countdown-header{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.BUTTON_IGW {
+    background: #800080;
+    background-image: -webkit-linear-gradient(top, #800080, #AA336A);
+    background-image: -moz-linear-gradient(top, #800080, #AA336A);
+    background-image: -ms-linear-gradient(top, #800080, #AA336A);
+    background-image: -o-linear-gradient(top, #800080, #AA336A);
+    background-image: -webkit-gradient(to bottom, #800080, #AA336A);
+    -webkit-border-radius: 59px;
+    -moz-border-radius: 59px;
+    border-radius: 59px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 60;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_IGW:hover {
+    border: solid #800080 1px;
+    background: #AA336A;
+    background-image: -webkit-linear-gradient(top, #AA336A, #800080);
+    background-image: -moz-linear-gradient(top, #AA336A, #800080);
+    background-image: -ms-linear-gradient(top, #AA336A, #800080);
+    background-image: -o-linear-gradient(top, #AA336A, #800080);
+    background-image: -webkit-gradient(to bottom, #AA336A, #800080);
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    text-decoration: none;
+ }
+
+ .butt{
+     margin-bottom: 17vh;
+ }
+ .eventsh{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    margin-bottom: 18vh;
+ }
+
+ .lpic{
+     margin-left: 17vw;
+     margin-right: 17vh;
+     display: flex;
+     margin-bottom: 11vh;
+ }
+
+ .lpich{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 35px;
+    text-align: left;
+
+ }
+
+ .lpicc{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 31px;
+text-align: left;
+ }
+.pic{
+    margin-right: 15vw;
+}
+.image{
+    width: 42.5vh;
+    height: 30vh;
+}
+.ptxt{
+    margin-right: 5vw;
+}
+.picr{
+    
+    margin-left: 15vw;
+    position: relative;
+    right: 18vh;
+}
+.rpic{
+    margin-left: 17vw;
+    margin-right: 17vh;
+    display: flex;
+    margin-bottom: 11vh;
+}
+.ptxtr{
+    margin-right: 5vw;
+}
+.ets{
+    margin-bottom: 10vh;
+}
+.ME{
+
+    height: 135vh;
+    text-align: center;
+    background-image:  url(Desktop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+.mecont{
+    padding-top: 40vh;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 97px;
+}
+.medes{
+    font-size: 25px;
+    margin-bottom: 18vh;
+    padding-left: 30vw;
+    padding-right: 25vw;
+    line-height: 1.6;
+}
+.butts{
+    margin-top: 10vh;
+}
+
+.BUTTON_I {
+    background: transparent;
+    -webkit-border-radius: 59px;
+    -moz-border-radius: 59px;
+    border-radius: 59px;
+    color: #AA336A;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 60;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #AA336A 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_I:hover {
+    border: solid #800080 1px;
+    background: #AA336A;
+    background-image: -webkit-linear-gradient(top, #AA336A, #800080);
+    background-image: -moz-linear-gradient(top, #AA336A, #800080);
+    background-image: -ms-linear-gradient(top, #AA336A, #800080);
+    background-image: -o-linear-gradient(top, #AA336A, #800080);
+    background-image: -webkit-gradient(to bottom, #AA336A, #800080);
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    text-decoration: none;
+    color: white;
+ }
+ hr{
+     width: 50%;
+     
+     margin-top: 40vh;
+ }
+ .contact{
+     display: flex;
+     color: white;
+     margin-bottom: 5vh;
+ }
+ .ct{
+     width: 33vw;
+     border: solid #AA336A 3px;
+     padding: 3%;
+     margin: 5%;
+     border-radius: 10%;
+     text-align: center;
+ }
+
+ .contactcont{
+     margin-top: 3vh;
+     font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 100;
+ }
+ .handles{
+     text-align: center;
+ }
+ .handle{
+     margin-left: 2vw;
+     margin-right: 2vw;
+     padding-bottom: 2vh;
+ }
+
+ .foot{
+     margin-top: 2vh;
+     color: white;
+     display: flex;
+ }
+ #footlogo{
+     position: relative;
+     left: 0;
+ }
+ #foottxt{
+     position:absolute;
+     right: 0;
+ }

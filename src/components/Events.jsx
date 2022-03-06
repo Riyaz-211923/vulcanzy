@@ -12,6 +12,7 @@ function Button(props){
         <LeftPic imgsrc={img1}/>
         <RightPic imgsrc={img2}/>
         <LeftPic imgsrc={img3}/>
+        <RightPic imgsrc={img2}/>
         </div>
     );
 }
